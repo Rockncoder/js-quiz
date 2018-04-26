@@ -1,8 +1,11 @@
-/*
+/**********************************************************
 
-Recreate the Person class by using a function named PersonX
+ TITLE: person
+ LEVEL: Beginner
 
- */
+ Recreate the Person class by using a function named PersonX
+
+ ***********************************************************/
 
 class Person {
   constructor(name) {
@@ -17,8 +20,9 @@ class Person {
 const person = new Person('Tyler');
 console.log(person.greet());
 
-// Please create the PersonX function
-// then uncomment the code below
+// Please create the PersonX function, then uncomment the code below
+
+
 
 // const personX = new PersonX('Tina');
 // console.log(personX.greet());

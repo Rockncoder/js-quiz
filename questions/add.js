@@ -1,8 +1,18 @@
-/*
+/**********************************************************
 
-Create a function addN which satisfies the code below
+ TITLE: add
+ LEVEL: Intermediate
 
- */
+ Create a function addN, which satisfies the output below
+
+ add10(1) = 11
+ add50(1) = 51
+ add10(5) = 15
+
+ ***********************************************************/
+
+// create the function below
+
 
 const add10 = addN(10);
 const add50 = addN(50);

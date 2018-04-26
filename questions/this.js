@@ -1,29 +1,28 @@
+/**********************************************************
+
+ TITLE: this
+ LEVEL: Beginner
+
+ Change the last line of the code,
+ without removing the call to print,
+ so that it prints:
+
+ company name = BitMob
+
+ ***********************************************************/
+
 const companyName = 'Slack';
 const  obj = {
-  companyName: 'Uber',
+  companyName: 'Twitter',
   prop: {
-    companyName: 'BitMob',
-    getCompanyName: function () {
-      return this.companyName;
+    companyName: 'Instagram',
+    show: function () {
+      return 'company name = ' + this.companyName;
     }
   }
 };
 
-const test = obj.prop.getCompanyName;
+const print = obj.prop.show;
 
-// console log #1
-console.log(obj.prop.getCompanyName());
-// console log #2
-console.log(test());
-
-/*
- The first console log, correctly prints the company name
- The second, does not.
-
- With a single line of code fix the call to test().
- Please don't change the object or break the getCompanyName method
-
- */
-
-// Please fix me
-console.log(test());
+console.log(obj.prop.show());
+console.log(print());
