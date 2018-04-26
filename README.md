@@ -7,7 +7,6 @@ Suggested Order:
 1. no-loop
 1. this
 1. person
-1. (fibonacci)
 1. closure
 1. repeater
 1. add
